@@ -1,8 +1,8 @@
 # 1.ベースイメージの取得
 FROM centos:latest
 
-# 2.作成者情報
-MAINTAINER 0.1 asashiho@mail.asa.yokohama
+# 2.作成者情報　edit by nakamura
+MAINTAINER 0.1 ta1nakamura
 
 # 3.Apache HTTP Serverのインストール
 RUN yum -y install httpd
